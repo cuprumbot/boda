@@ -2,29 +2,68 @@ body {
 	font-family: 'Baloo 2';
 	font-size: 30px;
 	color: #8F7A5A;
-
-	display: flex;
-	align-items: center;
 }
 
 img {
 	width: 300px;
-
-	animation-name: appearAnimation;
+	animation-name: appearAnimationNoScale;
 	animation-duration: 2.5s;
 	animation-timing-function: ease;
 }
 
+
+
 @keyframes appearAnimation {
-  0% {opacity: 0; transform: scale(0.9);}
-  
-  100% {}
+	0% {opacity: 0; transform: scale(0.9);}
+	100% {}
 }
 @keyframes appearAnimationNoScale {
-  0% {opacity: 0;}
-  
-  100% {}
+	0% {opacity: 0;}
+	100% {}
 }
+
+
+
+/* Font sizes */
+.textHuge {
+	font-size: 75px;
+	text-align: center;
+}
+.textBig {
+	font-size: 45px;
+	text-align: center;
+}
+.textMid {
+	font-size: 40px;
+	text-align: center;
+}
+.textSmall {
+	font-size: 25px;
+	text-align: center;
+}
+@media only screen and (max-width: 360px) {
+	body {
+		font-size: 25px;
+	}
+	.textHuge {
+		font-size: 60px;
+		text-align: center;
+	}
+	.textBig {
+		font-size: 40px;
+		text-align: center;
+	}
+	.textMid {
+		font-size: 35px;
+		text-align: center;
+	}
+	.textSmall {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
+
 
 .mainContainer {
 	display: flex;
@@ -47,10 +86,13 @@ img {
 	animation-duration: 2.5s;
 	animation-timing-function: ease;
 }
+@media only screen and (max-width: 500px) {
+	.preNames {
+		width: 100%;
+	}
+}
 
 .names {
-	font-size: 60px;
-	text-align: center;
 	font-family: 'Kaushan Script';
 
 	animation-name: appearAnimationNoScale;
@@ -69,6 +111,11 @@ img {
 	animation-duration: 2.5s;
 	animation-timing-function: ease;
 }
+@media only screen and (max-width: 500px) {
+	.postNames {
+		width: 100%;
+	}
+}
 
 .twoColsContainer {
 	display: flex;
@@ -81,7 +128,7 @@ img {
 @media only screen and (max-width: 600px) {
   .twoColsContainer {
     flex-direction: column;
-    width: 250px;
+    width: 300px;
   }
   .placeContainer {
   	padding-top: 45px;
@@ -105,8 +152,6 @@ img {
 	.date {
 		padding-top: 15px;
 		padding-bottom: 15px;
-
-		font-size: 45px;
 	}
 	.month {
 		text-align: center;
@@ -125,9 +170,6 @@ img {
 	animation-timing-function: ease;
 }
 	.placeName {
-		font-size: 40px;
-		text-align: center;
-
 		padding-bottom: 15px;
 	}
 	.placeAddress {
@@ -137,8 +179,6 @@ img {
 .time {
 	padding-top: 45px;
 	padding-bottom: 30px;
-
-	font-size: 45px;
 
 	animation-name: appearAnimation;
 	animation-duration: 3.5s;
@@ -159,8 +199,6 @@ img {
 	padding-top: 15px;
 	font-family: 'Satisfy';
 	text-align: center;
-
-	font-size: 45px;
 }
 .companion {
 	font-family: 'Satisfy';
@@ -184,16 +222,10 @@ img {
 	animation-duration: 4.5s;
 	animation-timing-function: ease;
 }
-@media only screen and (max-width: 960px) {
-  .twoColsContainerBig {
-    flex-direction: column;
-    width: 450px;
-  }
-  .giftsContainer {
-  	padding-top: 60px;
-  }
+a {
+	color: white;
+	text-decoration: none;
 }
-
 .locationContainer {
 	display: flex;
 	flex-direction: column;
@@ -203,9 +235,6 @@ img {
 	width: 450px;
 }
 	.locationName {
-		font-size: 40px;
-		text-align: center;
-
 		padding-bottom: 15px;
 	}
 	.locationDetails {
@@ -214,12 +243,6 @@ img {
 
 		padding-bottom: 15px;
 	}
-
-	a {
-		color: white;
-		text-decoration: none;
-	}
-
 	.wazeLink {
 		padding: 8px 20px;
 
@@ -241,7 +264,6 @@ img {
 		text-decoration: none;
 		border-radius: 10px;
 	}
-
 .giftsContainer {
 	display: flex;
 	flex-direction: column;
@@ -272,6 +294,19 @@ img {
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
+@media only screen and (max-width: 960px) {
+  .twoColsContainerBig {
+    flex-direction: column;
+    width: 300px;
+  }
+  .locationContainer {
+  	width: 250px;
+  }
+  .giftsContainer {
+  	width: 250px;
+  	padding-top: 60px;
+  }
+}
 
 .guestAmmountContainer {
 	animation-name: appearAnimation;
