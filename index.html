@@ -37,7 +37,7 @@
 
         <div class="preGuest">Queremos compartir contigo</div>
         <div class="guest">GUEST-NAME</div>
-        <div class="companion">HAS-COMPANION</div>
+        <div class="companion">NO-COMPANION</div>
         <div class="postGuest">la ceremonia y recepción</div>
 
         <div class="twoColsContainerBig">
@@ -61,7 +61,8 @@
             </div>   
         </div>
 
-        <div class="guestAmmount">Invitación para <span class="number">0</span></div>
+        <div class="guestAmmount">Invitación para <span class="number">0</span>
+        Vestimenta formal.</div>
         <div class="confirm">Es importante que confirmes tu asistencia con</div>
         <div class="confirmWith">CONFIRM-WITH</div>
 
@@ -83,10 +84,10 @@
 
                     if (elem.companion != undefined) {
                         $('.companion').html("y " + elem.companion);
-                        $('.number').html("2 invitados.");
+                        $('.number').html("dos personas.");
                     } else {
                         $('.companion').html('');
-                        $('.number').html("1 invitado.");
+                        $('.number').html("una persona.");
                     }
 
                     $('.confirmWith').html(conf[elem.c]);

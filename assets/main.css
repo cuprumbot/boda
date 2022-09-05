@@ -3,6 +3,9 @@ body {
 	font-size: 30px;
 	color: #8F7A5A;
 	/*background-color: #fff3e6;*/
+
+	display: flex;
+	align-items: center;
 }
 
 .mainContainer {
@@ -10,6 +13,9 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
+
+	overflow-y: visible;
 }
 
 .preNames {
@@ -22,6 +28,7 @@ body {
 
 .names {
 	font-size: 60px;
+	text-align: center;
 }
 
 .postNames {
@@ -39,6 +46,15 @@ body {
 	align-items: center;
 
 	width: 600px;
+}
+@media only screen and (max-width: 600px) {
+  .twoColsContainer {
+    flex-direction: column;
+    width: 250px;
+  }
+  .placeContainer {
+  	padding-top: 45px;
+  }
 }
 
 .dateContainer {
@@ -80,14 +96,14 @@ body {
 	}
 
 .time {
-	padding-top: 30px;
+	padding-top: 45px;
 	padding-bottom: 15px;
 
 	font-size: 45px;
 }
 
 .preGuest {
-	padding-top: 90px;
+	padding-top: 150px;
 }
 .guest {
 	padding-top: 15px;
@@ -103,9 +119,18 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 45px;
+	padding-top: 60px;
 
-	width: 1000px;
+	width: 950px;
+}
+@media only screen and (max-width: 950px) {
+  .twoColsContainerBig {
+    flex-direction: column;
+    width: 450px;
+  }
+  .giftsContainer {
+  	padding-top: 60px;
+  }
 }
 
 .locationContainer {
@@ -188,9 +213,12 @@ body {
 
 .guestAmmount {
 	padding-top: 60px;
+	white-space: pre-line;
+	text-align: center;
 }
 .confirm {
 	padding-top: 15px;
+	text-align: center;
 }
 .confirmWith{
 	padding-top: 15px;
