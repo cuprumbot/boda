@@ -1,6 +1,6 @@
 var info = [
-        {link:"abc", name:"Luis", companion:"Prueba", c:0},
-        {link:"def", name:"Ricardo", c:1}
+        {link:"test1", name:"Alice Ejemplo", companion:"Bob Ejemplo", c:0},
+        {link:"test2", name:"Carl Ejemplo", c:1}
 ];
 
 var conf = [

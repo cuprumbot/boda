@@ -1,11 +1,21 @@
 body {
-	font-family: Arial;
+	font-family: 'Baloo 2';
 	font-size: 30px;
 	color: #8F7A5A;
-	/*background-color: #fff3e6;*/
 
 	display: flex;
 	align-items: center;
+}
+
+@keyframes appearAnimation {
+  0% {opacity: 0; transform: scale(0.9);}
+  
+  100% {}
+}
+@keyframes appearAnimationNoScale {
+  0% {opacity: 0;}
+  
+  100% {}
 }
 
 .mainContainer {
@@ -24,11 +34,20 @@ body {
 
 	width: 500px;
 	text-align: center;
+
+	animation-name: appearAnimation;
+	animation-duration: 2.5s;
+	animation-timing-function: ease;
 }
 
 .names {
 	font-size: 60px;
 	text-align: center;
+	font-family: 'Satisfy';
+
+	animation-name: appearAnimationNoScale;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
 }
 
 .postNames {
@@ -37,6 +56,10 @@ body {
 
 	width: 500px;
 	text-align: center;
+
+	animation-name: appearAnimation;
+	animation-duration: 2.5s;
+	animation-timing-function: ease;
 }
 
 .twoColsContainer {
@@ -64,6 +87,10 @@ body {
 	align-items: center;
 
 	width: 250px;
+
+	animation-name: appearAnimation;
+	animation-duration: 3.5s;
+	animation-timing-function: ease;
 }
 	.day {
 	}
@@ -84,6 +111,10 @@ body {
 	align-items: center;
 
 	width: 250px;
+
+	animation-name: appearAnimation;
+	animation-duration: 3.5s;
+	animation-timing-function: ease;
 }
 	.placeName {
 		font-size: 40px;
@@ -100,6 +131,16 @@ body {
 	padding-bottom: 15px;
 
 	font-size: 45px;
+
+	animation-name: appearAnimation;
+	animation-duration: 3.5s;
+	animation-timing-function: ease;
+}
+
+.guestContainer {
+	animation-name: appearAnimation;
+	animation-duration: 4.5s;
+	animation-timing-function: ease;
 }
 
 .preGuest {
@@ -107,11 +148,18 @@ body {
 }
 .guest {
 	padding-top: 15px;
+	font-family: 'Satisfy';
+	text-align: center;
 
 	font-size: 45px;
 }
+.companion {
+	font-family: 'Satisfy';
+	text-align: center;
+}
 .postGuest {
 	padding-top: 15px;
+	text-align: center;
 }
 
 .twoColsContainerBig {
@@ -121,9 +169,13 @@ body {
 	align-items: center;
 	padding-top: 60px;
 
-	width: 950px;
+	width: 960px;
+
+	animation-name: appearAnimation;
+	animation-duration: 4.5s;
+	animation-timing-function: ease;
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 960px) {
   .twoColsContainerBig {
     flex-direction: column;
     width: 450px;
@@ -208,9 +260,15 @@ body {
 	.giftsOutro {
 		text-align: center;
 
+		padding-top: 15px;
 		padding-bottom: 15px;
 	}
 
+.guestAmmountContainer {
+	animation-name: appearAnimation;
+	animation-duration: 4.5s;
+	animation-timing-function: ease;
+}
 .guestAmmount {
 	padding-top: 60px;
 	white-space: pre-line;
