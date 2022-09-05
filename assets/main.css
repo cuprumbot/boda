@@ -46,7 +46,7 @@ body {
 	font-family: 'Satisfy';
 
 	animation-name: appearAnimationNoScale;
-	animation-duration: 1.5s;
+	animation-duration: 2.5s;
 	animation-timing-function: ease;
 }
 
@@ -145,6 +145,7 @@ body {
 
 .preGuest {
 	padding-top: 150px;
+	text-align: center;
 }
 .guest {
 	padding-top: 15px;
@@ -219,7 +220,7 @@ body {
 		border: none;
 		text-align: center;
 		text-decoration: none;
-		border-radius: 5px;
+		border-radius: 10px;
 	}
 	.mapsLink {
 		margin-top: 15px;
@@ -230,7 +231,7 @@ body {
 		border: none;
 		text-align: center;
 		text-decoration: none;
-		border-radius: 5px;
+		border-radius: 10px;
 	}
 
 .giftsContainer {
@@ -255,7 +256,7 @@ body {
 		border: none;
 		text-align: center;
 		text-decoration: none;
-		border-radius: 5px;
+		border-radius: 10px;
 	}
 	.giftsOutro {
 		text-align: center;
