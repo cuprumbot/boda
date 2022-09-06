@@ -4,7 +4,6 @@ body {
 	text-align: center;
 	color: #8F7A5A;
 }
-
 img {
 	width: 300px;
 	animation-name: appearAnimationNoScale;
@@ -231,23 +230,29 @@ a {
 		padding-bottom: 15px;
 	}
 	.wazeLink {
-		padding: 8px 20px;
+		padding: 6px 18px;
 
 		background-color: #8F7A5A;
 		color: white;
 		border: none;
 		text-decoration: none;
-		border-radius: 10px;
+		border-radius: 6px;
 	}
 	.mapsLink {
 		margin-top: 15px;
-		padding: 8px 20px;
+		padding: 6px 18px;
 
 		background-color: #8F7A5A;
 		color: white;
 		border: none;
 		text-decoration: none;
-		border-radius: 10px;
+		border-radius: 6px;
+	}
+	.wazeLink:hover {
+		background-color: #283F3B;
+	}
+	.mapsLink:hover {
+		background-color: #283F3B;
 	}
 .giftsContainer {
 	display: flex;
@@ -257,18 +262,24 @@ a {
 
 	width: 450px;
 }
+	.giftsPre {
+		padding-bottom: 30px;
+	}
 	.giftsIntro {
 		padding-bottom: 15px;
 	}
 	.cemacoLink {
-		padding: 8px 20px;
+		padding: 6px 18px;
 		margin-bottom: 15px;
 
 		background-color: #8F7A5A;
 		color: white;
 		border: none;
 		text-decoration: none;
-		border-radius: 10px;
+		border-radius: 6px;
+	}
+	.cemacoLink:hover {
+		background-color: #283F3B;
 	}
 	.giftsOutro {
 		padding-top: 15px;
@@ -315,4 +326,5 @@ a {
 }
 .confirmWith{
 	white-space: pre-line;
+	padding-bottom: 90px;
 }

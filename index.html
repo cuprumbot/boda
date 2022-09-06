@@ -61,7 +61,8 @@
                 </div>
             </div>
             <div class="giftsContainer">
-                <div class="giftsIntro">Para iniciar nuestro camino juntos hemos preparado una lista con ideas de regalos (por favor solicita que lo envíen a domicilio).</div>
+                <!--<div class="giftsPre">Apreciamos muchísimo regalos en sobre.</div>-->
+                <div class="giftsIntro">Para empezar nuestro camino juntos, hemos preparado una lista con ideas de regalos (por favor solicita que lo envíen a domicilio).</div>
                 <div class="cemacoLink">
                     <a href="https://www.cemaco.com/list/bodaluisyyosi">Bodas Cemaco</a>
                 </div>
@@ -86,7 +87,7 @@
 
         if(window.location.hash) {
             // Remove the # character
-            var hash = window.location.hash.substring(1); 
+            var hash = window.location.hash.substring(1).toLowerCase(); 
 
             info.forEach(elem => {
                 if (hash == elem.link) {
