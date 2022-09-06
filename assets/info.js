@@ -34,7 +34,7 @@ var info = [
         {link:"darlinespinoza", name:"Darlin Espinoza", companion:"acompañante", c:1},
         {link:"leticiavalerio", name:"Leticia Cifuentes y Valerio Morales", c:1, sp:"dos personas."},
         {link:"fabriciocalebnadia", name:"Fabricio Ganuza, Caleb Ganuza y Nadia Ganuza", c:1, sp:"tres personas."},
-        {link:"dulcedaniela", name:"Dulce Morales y Daniela Melchor", c:1, "dos personas."},
+        {link:"dulcedaniela", name:"Dulce Morales y Daniela Melchor", c:1, sp:"dos personas."},
         {link:"evamorales", name:"Eva Morales", c:1},
         {link:"gabrielaluis", name:"Gabriela Arriola y Luis Pedro Rosales", c:1, sp:"dos personas."},
         {link:"rafaelhuertas", name:"Rafael Huertas", c:1},
