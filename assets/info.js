@@ -11,7 +11,7 @@ var info = [
 
         {link:"marthacu", name:"Martha Cu", c:0},
         {link:"ricardopetrona", name:"Ricardo Cu y Petrona Yat", c:0, sp:"dos personas."},
-        {link:"luislucreciasebastian", name:"Luis Cu\nLucrecia De León\ny Sebastián Cu", c:0, sp:"tres personas."},
+        {link:"luislucreciasebastian", name:"Luis Cu, Lucrecia De León y Sebastián Cu", c:0, sp:"tres personas."},
         {link:"mariocu", name:"Mario Cu", c:0},
 
         {link:"ricardoanalu", name:"Ricardo Goubaud", companion:"Ana Lucía Asencio", c:0},
@@ -46,7 +46,7 @@ var info = [
         {link:"koenraadsaguil", name:"Koenraad Saguil", c:1},
         {link:"arielsoto", name:"Ariel Soto", c:1},
         {link:"bileyviricardo", name:"Bileyvi Morales y Ricardo Morales", c:1, sp:"dos personas."},
-        {link:"alexmorales", name:"Alex Morales", companion:"acompañante", c:1},
+        {link:"alexandermorales", name:"Alexander Morales", companion:"acompañante", c:1},
         {link:"isabelhidalgo", name:"Isabel Hidalgo", companion:"acompañante", c:1}
 ];
 

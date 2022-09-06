@@ -1,6 +1,7 @@
 body {
 	font-family: 'Baloo 2';
 	font-size: 30px;
+	text-align: center;
 	color: #8F7A5A;
 }
 
@@ -41,7 +42,7 @@ img {
 	font-size: 25px;
 	text-align: center;
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
 	body {
 		font-size: 25px;
 	}
@@ -80,7 +81,6 @@ img {
 	padding-bottom: 30px;
 
 	width: 500px;
-	text-align: center;
 
 	animation-name: appearAnimation;
 	animation-duration: 2.5s;
@@ -98,7 +98,6 @@ img {
 	padding-bottom: 30px;
 
 	width: 500px;
-	text-align: center;
 
 	animation-name: appearAnimation;
 	animation-duration: 2.5s;
@@ -140,7 +139,6 @@ img {
 		padding-bottom: 15px;
 	}
 	.month {
-		text-align: center;
 	}
 .placeContainer {
 	display: flex;
@@ -158,12 +156,11 @@ img {
 		padding-bottom: 15px;
 	}
 	.placeAddress {
-		text-align: center;
 	}
 
 .time {
 	padding-top: 45px;
-	padding-bottom: 30px;
+	padding-bottom: 45px;
 
 	animation-name: appearAnimation;
 	animation-duration: 3.5s;
@@ -186,22 +183,18 @@ img {
 }
 
 .preGuest {
-	padding-top: 30px;
-	text-align: center;
+	padding-top: 45px;
 }
 .guest {
 	padding-top: 15px;
 	font-family: 'Satisfy';
-	text-align: center;
 	white-space: pre-line;
 }
 .companion {
 	font-family: 'Satisfy';
-	text-align: center;
 }
 .postGuest {
 	padding-top: 15px;
-	text-align: center;
 }
 
 .twoColsContainerBig {
@@ -211,7 +204,7 @@ img {
 	align-items: center;
 	padding-top: 60px;
 
-	width: 960px;
+	width: 1000px;
 
 	animation-name: appearAnimation;
 	animation-duration: 4.5s;
@@ -233,7 +226,6 @@ a {
 		padding-bottom: 15px;
 	}
 	.locationDetails {
-		text-align: center;
 		white-space: pre-line;
 
 		padding-bottom: 15px;
@@ -244,7 +236,6 @@ a {
 		background-color: #8F7A5A;
 		color: white;
 		border: none;
-		text-align: center;
 		text-decoration: none;
 		border-radius: 10px;
 	}
@@ -255,7 +246,6 @@ a {
 		background-color: #8F7A5A;
 		color: white;
 		border: none;
-		text-align: center;
 		text-decoration: none;
 		border-radius: 10px;
 	}
@@ -268,8 +258,6 @@ a {
 	width: 450px;
 }
 	.giftsIntro {
-		text-align: center;
-
 		padding-bottom: 15px;
 	}
 	.cemacoLink {
@@ -279,27 +267,37 @@ a {
 		background-color: #8F7A5A;
 		color: white;
 		border: none;
-		text-align: center;
 		text-decoration: none;
 		border-radius: 10px;
 	}
 	.giftsOutro {
-		text-align: center;
-
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1000px) {
+  .twoColsContainerBig {
+    flex-direction: row;
+    width: 650px;
+    padding-top: 90px;
+  }
+  .locationContainer {
+  	width: 300px;
+  }
+  .giftsContainer {
+  	width: 300px;
+  	padding-top: 90px;
+  }
+}
+@media only screen and (max-width: 700px) {
   .twoColsContainerBig {
     flex-direction: column;
     width: 300px;
   }
   .locationContainer {
-  	width: 250px;
+  	width: 300px;
   }
   .giftsContainer {
-  	width: 250px;
-  	padding-top: 60px;
+  	width: 300px;
   }
 }
 
@@ -309,16 +307,12 @@ a {
 	animation-timing-function: ease;
 }
 .guestAmmount {
-	padding-top: 60px;
+	padding-top: 90px;
 	white-space: pre-line;
-	text-align: center;
 }
 .confirm {
-	padding-top: 15px;
-	text-align: center;
+	padding-top: 60px;
 }
 .confirmWith{
-	padding-top: 15px;
 	white-space: pre-line;
-	text-align: center;
 }
