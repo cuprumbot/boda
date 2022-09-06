@@ -86,12 +86,6 @@ img {
 	animation-duration: 2.5s;
 	animation-timing-function: ease;
 }
-@media only screen and (max-width: 500px) {
-	.preNames {
-		width: 100%;
-	}
-}
-
 .names {
 	font-family: 'Kaushan Script';
 
@@ -99,7 +93,6 @@ img {
 	animation-duration: 2.5s;
 	animation-timing-function: ease;
 }
-
 .postNames {
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -112,6 +105,9 @@ img {
 	animation-timing-function: ease;
 }
 @media only screen and (max-width: 500px) {
+	.preNames {
+		width: 100%;
+	}
 	.postNames {
 		width: 100%;
 	}
@@ -125,16 +121,6 @@ img {
 
 	width: 600px;
 }
-@media only screen and (max-width: 600px) {
-  .twoColsContainer {
-    flex-direction: column;
-    width: 300px;
-  }
-  .placeContainer {
-  	padding-top: 45px;
-  }
-}
-
 .dateContainer {
 	display: flex;
 	flex-direction: column;
@@ -156,7 +142,6 @@ img {
 	.month {
 		text-align: center;
 	}
-
 .placeContainer {
 	display: flex;
 	flex-direction: column;
@@ -184,6 +169,15 @@ img {
 	animation-duration: 3.5s;
 	animation-timing-function: ease;
 }
+@media only screen and (max-width: 600px) {
+  .twoColsContainer {
+    flex-direction: column;
+    width: 300px;
+  }
+  .placeContainer {
+  	padding-top: 45px;
+  }
+}
 
 .guestContainer {
 	animation-name: appearAnimation;
@@ -199,6 +193,7 @@ img {
 	padding-top: 15px;
 	font-family: 'Satisfy';
 	text-align: center;
+	white-space: pre-line;
 }
 .companion {
 	font-family: 'Satisfy';

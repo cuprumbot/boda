@@ -92,7 +92,14 @@
                 if (hash == elem.link) {
                     $('.guest').html(elem.name);
 
-                    if (elem.companion != undefined) {
+                    if (elem.sp != undefined) {
+                        if (elem.companion != undefined) {
+                            $('.companion').html(elem.companion);
+                        } else {
+                            $('.companion').html('');
+                        }
+                        $('.number').html(elem.sp);
+                    } else if (elem.companion != undefined) {
                         $('.companion').html("y " + elem.companion);
                         $('.number').html("dos personas.");
                     } else {
