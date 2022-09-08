@@ -27,6 +27,7 @@ var info = [
         {link:"tiffanybustamante", name:"Tiffany Bustamante", c:0},
         {link:"gerardohuerta", name:"Gerardo Huerta", c:0},
         {link:"herbertlopez", name:"Herbert Lopez", c:0},
+        {link:"sofiacardenas", name:"Sofia Cardenas", c:0},
 
         {link:"ivonemorales", name:"Ivone Morales", c:1},
         {link:"bryanyaneth", name:"Bryan Espinoza y Yaneth Oseguera", c:1, sp:"dos personas."},
