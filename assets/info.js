@@ -31,6 +31,7 @@ var info = [
         {link:"moiseslemus", name:"Moises Lemus", c:0},
         {link:"yosefmaldonado", name:"Yosef Maldonado", c:0},
         {link:"rociosantos", name:"Rocío Santos", c:0},
+        {link:"diegocalderon", name:"Diego Calderón", c:0},
 
         {link:"ivonemorales", name:"Ivone Morales", c:1},
         {link:"bryanyaneth", name:"Bryan Espinoza y Yaneth Oseguera", c:1, sp:"dos personas."},
